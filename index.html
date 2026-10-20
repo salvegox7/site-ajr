@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AJR Casa do Raspador</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+    <img src="imagens/logo-ajr.jpeg" class="logo">
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#contato">Contato</a>
+        <a href="https://www.instagram.com/ajr_casadoraspador/" target="_blank">Instagram</a>
+    </nav>
+
+</header>
+
+
+<section class="hero" id="inicio">
+
+    <div class="hero-content">
+
+        <h2>AJR Casa do Raspador</h2>
+
+        <p>
+            Produtos para tratamento, restauração
+            e acabamento de pisos de madeira.
+        </p>
+
+        <a href="#produtos" class="botao">
+            Conheça nossos produtos
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="produtos" id="produtos">
+
+    <h2>Nossos produtos</h2>
+
+    <p>
+        Encontre tudo o que você precisa para
+        tratamento, restauração e acabamento
+        de pisos de madeira.
+    </p>
+
+    <div class="categorias">
+
+        <a href="#" class="categoria" onclick="abrirCategoria('Colas'); return false;">
+
+            <div class="categoria-icone">🧴</div>
+
+            <h3>Colas</h3>
+
+            <p>
+                Adesivos e colas para pisos
+                de madeira.
+            </p>
+
+        </a>
+
+
+        <a href="#" class="categoria" onclick="abrirCategoria('Vernizes'); return false;">
+
+            <div class="categoria-icone">🎨</div>
+
+            <h3>Vernizes</h3>
+
+            <p>
+                Produtos para proteção
+                e acabamento.
+            </p>
+
+        </a>
+
+
+        <a href="#" class="categoria" onclick="abrirCategoria('Ferramentas'); return false;">
+
+            <div class="categoria-icone">🛠️</div>
+
+            <h3>Ferramentas</h3>
+
+            <p>
+                Ferramentas para
+                profissionais.
+            </p>
+
+        </a>
+
+
+        <a href="#" class="categoria" onclick="abrirCategoria('Lixas'); return false;">
+
+            <div class="categoria-icone">✨</div>
+
+            <h3>Lixas</h3>
+
+            <p>
+                Confira nossas lixas
+            </p>
+
+        </a>
+
+        <div class="categoria" onclick="abrirCategoria('Massa Acrílica')">
+
+    <div class="icone-categoria">🪣</div>
+
+    <h3>Massa Acrílica</h3>
+
+    <p>Confira nossas massas acrílicas</p>
+
+</div>
+
+        <a href="#" class="categoria vermeister" onclick="abrirCategoria('VerMeister'); return false;">
+
+            <img
+            src="imagens/vermeister/logo-vermeister1.jpeg"
+            alt="VerMeister"
+            class="logo-vermeister"
+            >
+            
+            <h3>VerMeister</h3>
+
+            <p>
+                Produtos VerMeister com certificação italiana.
+            </p>
+        </a>
+
+        <div class="categoria" onclick="abrirCategoria('Máquinas')">
+    <div class="categoria-icone">⚙️</div>
+    <h3>Máquinas</h3>
+    <p>Equipamentos para pisos de madeira</p>
+</div>
+        
+
+    </div>
+
+</section>
+
+
+<section class="sobre" id="sobre">
+
+    <h2>Sobre nós</h2>
+
+    <p>
+        A AJR Casa do Raspador trabalha com produtos
+        para tratamento, restauração e acabamento
+        de pisos de madeira, oferecendo atendimento
+        e envio de pedidos para todo o Brasil.
+    </p>
+
+</section>
+
+
+<section class="contato" id="contato">
+
+    <h2>Entre em contato</h2>
+
+    <p>
+        Fale com a AJR e consulte nossos produtos
+        e condições.
+    </p>
+
+    <a
+        href="https://api.whatsapp.com/send/?phone=5512988660405&text&type=phone_number&app_absent=0"
+        target="_blank"
+        class="whatsapp"
+    >
+        Falar pelo WhatsApp
+    </a>
+
+</section>
+
+
+<footer>
+
+    <p>
+        © 2026 AJR Casa do Raspador
+    </p>
+
+</footer>
+<script src="produtos.js"></script>
+</body>
+</html>
